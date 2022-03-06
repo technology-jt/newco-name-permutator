@@ -147,5 +147,5 @@ print(f'number of words: {len(words)}')
 print(f'number of names: {len(custom_names)}')
 print(df)
 
-df.to_pickle(f"./pickle_runs/{_fdate}_{_fseconds}_names.pkl")
+df.to_pickle(f"./app/pickle_runs/{_fdate}_{_fseconds}_names.pkl")
 
